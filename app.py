@@ -27,12 +27,12 @@ st.markdown(":red[Tell us about your property 🏠]")
 # Loading all encoding variables
 
 # Amenities
-with open('Encoders\amenities_TFIDF.pkl','rb') as file:
+with open('amenities_TFIDF.pkl','rb') as file:
     en_amenities = pickle.load(file)
     
 # encoder_city
 
-with open('Encoders\encoder_city.pkl','rb') as file:
+with open('Encoders\\encoder_city.pkl','rb') as file:
     en_city = pickle.load(file)
     
 # encoder_host_response_time.pkl
