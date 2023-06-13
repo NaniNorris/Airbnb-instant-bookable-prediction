@@ -32,62 +32,62 @@ with open('amenities_TFIDF.pkl','rb') as file:
     
 # encoder_city
 
-with open('Encoders\\encoder_city.pkl','rb') as file:
+with open('encoder_city.pkl','rb') as file:
     en_city = pickle.load(file)
     
 # encoder_host_response_time.pkl
-with open('Encoders\\encoder_host_response_time.pkl','rb') as file:
+with open('encoder_host_response_time.pkl','rb') as file:
     en_response_time = pickle.load(file)
     
 #encoder_neighbourhood.pkl
-with open('Encoders\\encoder_neighbourhood.pkl','rb') as file:
+with open('encoder_neighbourhood.pkl','rb') as file:
     en_neighbourhood = pickle.load(file)
     
 # encoder_property_type.pkl
-with open('Encoders\\encoder_property_type.pkl','rb') as file:
+with open('encoder_property_type.pkl','rb') as file:
     en_property_type = pickle.load(file)
     
 # encoder_region.pkl
 
-with open('Encoders\\encoder_region.pkl','rb') as file:
+with open('encoder_region.pkl','rb') as file:
     en_region = pickle.load(file)
 
 # encoder_room_type.pkl
-with open('Encoders\\encoder_room_type.pkl','rb') as file:
+with open('encoder_room_type.pkl','rb') as file:
     en_room_type = pickle.load(file)
     
     
 # Loading transformation
-with open('Transformattion\\accommodates.pkl','rb') as file:
+with open('accommodates.pkl','rb') as file:
     trans_accommodates = pickle.load(file)
     
-with open('Transformattion\\bedrooms.pkl','rb') as file:
+with open('bedrooms.pkl','rb') as file:
     trans_bedroom = pickle.load(file)
 
-with open('Transformattion\\host_total_listings_count.pkl','rb') as file:
+with open('host_total_listings_count.pkl','rb') as file:
     trans_host_listing_count = pickle.load(file)
     
-with open('Transformattion\\minimum_nights.pkl','rb') as file:
+with open('minimum_nights.pkl','rb') as file:
     trans_min_nights = pickle.load(file)
     
-with open('Transformattion\\price.pkl','rb') as file:
+with open('price.pkl','rb') as file:
     trans_price = pickle.load(file)
     
-with open('Transformattion\\review_scores_location.pkl','rb') as file:
+with open('review_scores_location.pkl','rb') as file:
     trans_re_location = pickle.load(file)
     
 # Scaling
 
-with open('Scaling\\scaling_host_acceptance_rate.pkl','rb') as file:
+with open('scaling_host_acceptance_rate.pkl','rb') as file:
     scal_accet_rate = pickle.load(file)
 
-with open('Scaling\\scaling_host_response_rate.pkl','rb') as file:
+with open('scaling_host_response_rate.pkl','rb') as file:
     scal_response_rate = pickle.load(file)
     
-with open('Scaling\\scaling_longitude.pkl','rb') as file:
+with open('scaling_longitude.pkl','rb') as file:
     scal_longitude = pickle.load(file)
     
-with open('Scaling\\scaling_review_scores_rating.pkl','rb') as file:
+with open('scaling_review_scores_rating.pkl','rb') as file:
     scal_re_rating = pickle.load(file)
     
     
